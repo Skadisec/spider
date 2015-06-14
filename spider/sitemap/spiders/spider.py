@@ -21,7 +21,7 @@ class SitemapSpider(CrawlSpider):
 #class MySpider(Spider):
     name = 'spider'
     #allowed_domains = ['shiep.edu.cn']
-    #start_urls = ['http://www.shiep.edu.cn/']
+    #start_urls = ['http://www.sina.com.cn/']
     def __init__(self, *args, **kwargs):
         super(SitemapSpider, self).__init__(*args, **kwargs)
         self.start_urls =  [kwargs.get('url')]
