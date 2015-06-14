@@ -6,7 +6,7 @@ import MySQLdb
 time = time.strftime("%Y-%m-%d", time.localtime())
 print time
 
-conn = MySQLdb.connect(host='localhost',user='root',passwd='Ykswsjjd1!',charset="utf8")
+conn = MySQLdb.connect(host='localhost',user='root',passwd='toor',charset="utf8")
 #获取游标
 curs = conn.cursor()
 #执行SQL,创建一个数据库
